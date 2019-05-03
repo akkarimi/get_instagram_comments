@@ -1,4 +1,4 @@
-# get_instagram_comments
+# Get Instagram Comments
 A python script to download comments of a post on Instagram
 
 
