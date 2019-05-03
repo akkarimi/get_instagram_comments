@@ -6,9 +6,9 @@ Steps:
 
 1. Required libraries:
       
-      BeautifulSoup
-      selenium
-      langdetect
+      * BeautifulSoup
+      * selenium
+      * langdetect
 
 2. You also need to download chrome driver:  https://sites.google.com/a/chromium.org/chromedriver/
 
