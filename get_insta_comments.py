@@ -5,8 +5,6 @@ from langdetect import detect
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
-import argparse
-
 
 def get_comments():
 
@@ -45,6 +43,7 @@ def get_comments():
     driver.quit()
 
 def click_load(driver):
+    
     html = driver.page_source
     flag = False
     if 'Load more comments' in html:
