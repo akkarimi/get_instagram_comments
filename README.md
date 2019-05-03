@@ -12,7 +12,7 @@ Steps:
 
 2. You also need to download chrome driver:  https://sites.google.com/a/chromium.org/chromedriver/
 
-3. Add the chrome driver to the PATH variable
+3. Add the chrome driver to the PATH variable: export PATH=$PATH:/path-to-chormedriver-directory/
 
 4. Run the script:
 
