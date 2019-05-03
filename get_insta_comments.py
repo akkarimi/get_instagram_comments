@@ -12,7 +12,8 @@ def get_comments():
 
     insta_address = input("Enter the Post Address and Press Enter: ")
     lan = input("Only English Comments (y/n): ")
-    driver = webdriver.Chrome(executable_path='/home/akbar/work/chromedriver/chromedriver')
+
+    driver = webdriver.Chrome()
 
     driver.get(insta_address)
     plain_html = click_load(driver)
